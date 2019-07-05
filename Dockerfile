@@ -1,4 +1,4 @@
-FROM mysql
+FROM mysql:5.7
 WORKDIR ~/
 RUN wget https://nodejs.org/dist/v10.16.0/node-v10.16.0-linux-x64.tar.xz / 
     tar -xvf node-v10.16.0-linux-x64.tar.xz -C "/usr" /
